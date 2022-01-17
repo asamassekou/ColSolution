@@ -1,0 +1,350 @@
+body {
+	top: 100px;
+	font-family:Arial;
+	margin:auto;
+	width:1000px;
+	background:url('../images/wowww.jpg') no-repeat center fixed;
+	-webkit-background-size:cover ;
+	-webkit-backdrop-filter: blur(15px);
+
+	/*background-size:contain;*/	
+}
+
+/* HEADER */
+
+header {
+	top: 100px;
+	width:1000px;
+	padding:10px;
+	/*background:url('../images/onnn.jpg');
+	background-size: cover;*/
+	background-color:rgb(27, 26, 26);
+}
+
+.logo {
+	width: 100px;
+	height: 70px;
+	}
+	
+
+#pp {
+	color: aliceblue;
+	width: 1000px;
+	text-align: center;
+	font-weight: bold;
+}
+#searchbar {
+    width: 400px;
+    display:inline-block;
+    float: right;
+    top: 50px;
+    height: 35px;
+    position: relative;
+	border-radius: 20px;
+
+
+}
+header img {
+	width:170px;
+	height:120px;
+}
+
+header a {
+	display:inline-block;
+	width:25%;
+}
+
+/* NAV */
+
+#mainNav {
+/*	background:url('../images/fdO.jpg');
+	background-size: cover;*/
+	background-color:rgb(27, 26, 26);
+
+}
+
+nav {
+
+	width:1000px;
+	padding:10px;
+	margin-top:30px;
+}
+
+nav img {
+	width:25px;
+	height:25px;
+	position:relative;
+	top:5px;
+}
+
+/* liens cliquables */
+
+.menuLink {
+	background-color: rgb(108, 158, 187);
+	position:relative;
+	bottom:20px;
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	padding:7px;
+	border:2px black solid;
+	border-radius:4px;
+	margin-right:10px;
+}
+
+#pdp {
+	background-color:rgb(196, 117, 52);
+	position:relative;
+	bottom:20px;
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	padding:7px;
+	border:2px black solid;
+	border-radius:4px;
+	margin-right:10px;
+	top: 20px;
+
+}
+
+/* menu de gauche (lien vers page message) */
+
+
+#menusMessage {
+	display:block;
+	width:250px;
+	position: relative;
+	float: left;
+}
+
+/* menu central (pages publication/recherche annonce) */
+
+#Annonce {
+	display:inline-block;
+	width:420px;
+    position: relative;
+}
+#com{
+display: block;
+position: relative;
+width: 1000px;
+height: 100px;
+border-bottom: 2px solid gray;
+top: 30px;
+background-color:rgb(31, 33, 36);
+
+}
+
+#com_pic {
+	display: block;
+	position: relative;
+	float: left;
+}
+
+#com_pic img{
+	width: 70px;
+	height: 70px;
+	border: 2px solid black;
+	border-radius: 110px;
+	
+	}
+.croix {
+	display: block;
+	position: relative;
+	float: right;
+	width: 30px;
+	height: 30px;
+}
+
+#nomCom {
+display: inline-block;
+position: relative;
+bottom: 40px;
+
+}
+#com_text {
+display: block;
+position: relative;
+text-align: left;
+top:40px;
+right: 50px;
+width: 1000px;
+height: 10px;
+color: rgb(176, 193, 224);
+}
+
+#commentaire {
+display: block;
+position: relative;
+bottom: 700px;	
+	
+}
+/* menu de droite (accès compte(page inscription et connexion)) */
+
+#menusCompte {
+	display:inline-block;
+	width:200px;
+	float:right;
+	position: relative;
+}
+
+/* MAIN */
+
+main {
+	width:1000px;
+	height:2000px;
+	padding:10px;
+	margin-top:30px;
+	color:rgb(187, 171, 171);
+	font-size:18px;
+	/*background-color:rgb(5, 5, 5);*/	
+	background:url('../images/fn.jpg') no-repeat center ; 
+	-webkit-background-size:cover ;
+	/*background-color:rgb(27, 26, 26);*/
+
+}
+
+main h2 {
+	color:rgb(56, 60, 63);
+	position:relative;
+	text-align: center;
+	background-color: rgb(108, 158, 187);
+}
+
+#ptt {
+	background-color: rgb(108, 158, 187);
+    text-align: center;
+	color:rgb(56, 60, 63);
+
+}
+
+#informations {
+    width:1000px;
+	display:block;
+	position:relative;
+    border-bottom: black;
+
+}
+
+#adminpp {
+    width:1000px;
+	display:block;
+	position:relative;
+    border-bottom: black;
+	text-align: center;
+}
+
+#informations img{
+	width:500px;
+    height: 400px;
+	
+}
+#pt {
+	background-color: rgb(108, 158, 187);
+    text-align: center;
+	color:rgb(56, 60, 63);
+
+}
+#ppImg {
+	bottom: 200px;
+	display: block;
+	position: relative;
+	width: 200px;
+}
+#photoProfil {
+	display:inline-block;
+	width:500px;
+    height:280px;
+    position:relative;
+    border:black;
+	/*background-color:rgb(27, 26, 26);*/
+    top: 10px;
+}
+.an {
+    top: 20px;
+	border:2px black solid;
+	/*border-radius:114px;*/
+}
+#info {
+	display:inline-block;
+	position:relative;
+    float:right;
+	width:300px;
+    height:280px;
+    padding:10px;
+	/*background-color:rgb(27, 26, 26);*/
+    bottom: 685px;
+    text-align: center;
+
+
+}
+#tb {
+	text-decoration: none;
+	background-color: rgb(108, 158, 187);
+	position:relative;
+		bottom:10px;
+		font-weight:bold;
+		color:black;
+		padding:7px;
+		border:2px black solid;
+		border-radius:4px;
+		margin-right:10px;
+	}
+	
+	.button_like {
+		display: block;
+		position: relative;
+		text-decoration:none;
+		top: 20px;
+	}
+	.button_dislike {
+		display: block;
+		position: relative;
+		text-decoration:none;
+		float: right;
+	}
+#Description {
+    width:1000px;
+	display:inline-block;
+	position:relative;
+    bottom : 580px;
+    margin:160px ;
+    right: 160px;
+	text-align: center;
+}
+
+#Desc {
+	background-color: rgb(11, 12, 12);
+    width:996px;
+    color: rgb(230, 221, 215);
+    text-align: center;
+}
+footer {
+	width:1000px;
+	padding:10px;
+	margin-top:30px;
+	margin-bottom:10px;
+	/*background:url('../images/fdO.jpg');*/
+	background-color:rgb(27, 26, 26);
+
+}
+
+footer img {
+	width:170px;
+	height:120px;
+}
+
+footer a {
+	display:inline-block;
+}
+
+footer p {
+	font-weight:bold;
+	font-style:italic;
+	position:relative;
+	top:40px;
+	color:rgb(80, 74, 70);
+	display:inline-block;
+	width:70%;
+	float:right;
+}

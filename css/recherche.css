@@ -1,0 +1,303 @@
+body {
+	top: 100px;
+	font-family:Arial;
+	margin:auto;
+	width:1000px;
+	background:url('../images/wowww.jpg') no-repeat center fixed;
+	-webkit-background-size:cover ;
+	-webkit-backdrop-filter: blur(15px);
+
+	/*background-size:contain;*/	
+}
+
+/* HEADER */
+
+header {
+	top: 100px;
+	width:1000px;
+	padding:10px;
+	/*background:url('../images/onnn.jpg');
+	background-size: cover;
+	background-color:rgb(27, 26, 26);*/
+	background:url('../images/fn.jpg') no-repeat center ; 
+
+}
+.logo {
+	width: 100px;
+	height: 70px;
+	}
+	
+
+#pp {
+	color: aliceblue;
+	width: 1000px;
+	text-align: center;
+	font-weight: bold;
+}
+#searchbar {
+    width: 400px;
+    display:inline-block;
+    float: right;
+    top: 50px;
+    height: 35px;
+    position: relative;
+	border-radius: 20px;
+
+
+}
+header img {
+	width:170px;
+	height:120px;
+}
+
+header a {
+	display:inline-block;
+	width:25%;
+}
+
+
+
+/* NAV */
+
+#mainNav {
+/*	background:url('../images/fdO.jpg');
+	background-size: cover;
+	background-color:rgb(27, 26, 26);*/
+	background:url('../images/fn.jpg') no-repeat center ; 
+
+
+}
+
+nav {
+
+	width:1000px;
+	padding:10px;
+	margin-top:30px;
+}
+
+nav img {
+	width:25px;
+	height:25px;
+	position:relative;
+	top:5px;
+}
+
+/* liens cliquables */
+
+.menuLink {
+	background-color: rgb(108, 158, 187);
+	position:relative;
+	bottom:20px;
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	padding:7px;
+	border:2px black solid;
+	border-radius:4px;
+	margin-right:10px;
+}
+
+#pdp {
+	background-color:rgb(196, 117, 52);
+	position:relative;
+	bottom:20px;
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	padding:7px;
+	border:2px black solid;
+	border-radius:4px;
+	margin-right:10px;
+	top: 20px;
+
+}
+
+/* menu de gauche (lien vers page message) */
+
+
+#menusMessage {
+	display:inline-block;
+	width:250px;
+	margin-right:20px;
+}
+
+/* menu central (pages publication/recherche annonce) */
+
+#Annonce {
+	display:inline-block;
+	width:450px;
+    position: relative;
+}
+
+/* menu de droite (accès compte(page inscription et connexion)) */
+
+#menusCompte {
+	display:inline-block;
+	width:200px;
+	float:right;
+	position: relative;
+}
+
+/* MAIN */
+
+main {
+	width:1000px;
+	height:1400px;
+	padding:10px;
+	margin-top:30px;
+	color:rgb(187, 171, 171);
+	font-size:18px;
+	/*background-color:rgb(5, 5, 5);*/	
+	background:url('../images/fn.jpg') no-repeat center ; 
+	-webkit-background-size:cover ;
+	background-color:rgb(27, 26, 26);
+
+}
+main h2 {
+	color:rgb(56, 60, 63);
+	position:relative;
+	text-align: center;
+	background-color: rgb(108, 158, 187);
+
+}
+#ptt {
+    background-color: rgb(104, 50, 50);
+    text-align: center;
+    bottom: 20px;
+}
+
+#l{
+
+    width:1000px;
+	display:block;
+	position:relative;
+    border-bottom: black;
+}
+
+
+#n{
+
+	display:inline-block;
+	width:300px;
+    position:relative;
+    border:black;
+	background-color:rgb(27, 26, 26);
+    top: 10px;
+
+}
+
+
+#p{
+    display:inline-block;
+    float:right;
+	width:600px;
+	background-color:rgb(27, 26, 26);
+    top: 120px;
+
+}
+#liste {
+	width:1000px;
+	display:block;
+	position:relative;
+	border:2px solid rgb(243, 241, 237);
+	margin-bottom: 20px;
+
+
+}
+#liste img{
+	width:150px;
+    height: 100px;
+	
+}
+
+#liste_pic {
+	display:inline-block;
+	width:150px;
+    position:relative;
+	background:url('../images/fn.jpg') no-repeat center ; 
+
+}
+
+#liste_text {
+	float:right;
+	display:inline-block;
+	width:830px;
+    height: 80px;
+    padding:10px;
+	background:url('../images/fn.jpg') no-repeat center ; 
+}
+#pt {
+    background-color: rgb(104, 50, 50);
+    text-align: center;
+}
+#nom {
+	display:inline-block;
+	width:300px;
+    position:relative;
+    border:black;
+	background-color:rgb(27, 26, 26);
+    top: 10px;
+}
+.an {
+    top: 20px;
+}
+#prenom {
+	display:inline-block;
+    float:right;
+	width:600px;
+	background-color:rgb(27, 26, 26);
+    top: 130px;
+
+}
+
+#Description {
+    width:1000px;
+	display:block;
+	position:relative;
+    bottom : 110px;
+    margin:160px ;
+    right: 160px;
+	background-color:rgb(27, 26, 26);
+    text-align: center;
+}
+#Des {
+    background-color: black;
+    width:996px;
+    color: rgb(230, 221, 215);
+    text-align: left;
+}
+#Desc {
+    background-color: black;
+    width:996px;
+    color: rgb(230, 221, 215);
+    text-align: center;
+}
+footer {
+	width:1000px;
+	padding:10px;
+	margin-top:30px;
+	margin-bottom:10px;
+	/*background:url('../images/fdO.jpg');*/
+	background-color:rgb(27, 26, 26);
+
+}
+
+footer img {
+	width:170px;
+	height:120px;
+}
+
+footer a {
+	display:inline-block;
+}
+
+footer p {
+	font-weight:bold;
+	font-style:italic;
+	position:relative;
+	top:40px;
+	color:rgb(80, 74, 70);
+	display:inline-block;
+	width:70%;
+	float:right;
+}

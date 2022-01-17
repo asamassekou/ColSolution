@@ -1,0 +1,328 @@
+body {
+	top: 100px;
+	font-family:Arial;
+	margin:auto;
+	width:1000px;
+	background:url('../images/wowww.jpg') no-repeat center fixed;
+	-webkit-background-size:cover ;
+	-webkit-backdrop-filter: blur(15px);
+
+	/*background-size:contain;*/	
+}
+
+/* HEADER */
+
+header {
+	top: 100px;
+	width:1000px;
+	padding:10px;
+	/*background:url('../images/onnn.jpg');
+	background-size: cover;*/
+	background:url('../images/fn.jpg') no-repeat center ; 
+}
+
+.logo {
+	width: 100px;
+	height: 70px;
+	}
+	
+
+#pp {
+	color: aliceblue;
+	width: 1000px;
+	text-align: center;
+	font-weight: bold;
+}
+#searchbar {
+    width: 400px;
+    display:inline-block;
+    float: right;
+    top: 20px;
+    height: 35px;
+    position: relative;
+	border-radius: 20px;
+
+}
+header img {
+	width:170px;
+	height:120px;
+}
+
+header a {
+	display:inline-block;
+	width:25%;
+}
+
+/* NAV */
+
+#mainNav {
+/*	background:url('../images/fdO.jpg');
+	background-size: cover;*/
+	background:url('../images/fn.jpg') no-repeat center ; 
+
+}
+
+nav {
+
+	width:1000px;
+	padding:10px;
+	margin-top:30px;
+}
+
+nav img {
+	width:25px;
+	height:25px;
+	position:relative;
+	top:5px;
+}
+
+/* liens cliquables */
+
+.menuLink {
+	background-color: rgb(108, 158, 187);
+	position:relative;
+	bottom:20px;
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	padding:7px;
+	border:2px black solid;
+	border-radius:4px;
+	margin-right:10px;
+}
+
+.menulinkk {
+	background-color: rgb(255, 0, 85);
+	position:relative;
+	bottom:20px;
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	padding:7px;
+	border:2px black solid;
+	border-radius:4px;
+	margin-right:10px;
+}
+
+#pdp {
+	background-color:rgb(196, 117, 52);
+	position:relative;
+	bottom:20px;
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	padding:7px;
+	border:2px black solid;
+	border-radius:4px;
+	margin-right:10px;
+	top: 20px;
+
+}
+
+/* menu de gauche (lien vers page message) */
+
+
+#menusMessage {
+	display:block;
+	width:250px;
+	position: relative;
+	float: left;
+}
+
+/* menu central (pages publication/recherche annonce) */
+
+#Annonce {
+	display:inline-block;
+	width:420px;
+    position: relative;
+}
+
+/* menu de droite (accès compte(page inscription et connexion)) */
+
+#menusCompte {
+	display:inline-block;
+	width:200px;
+	float:right;
+	position: relative;
+}
+
+/* MAIN */
+
+main {
+	width:1000px;
+	height:700px;
+	padding:10px;
+	margin-top:30px;
+	color:rgb(187, 171, 171);
+	font-size:18px;
+	/*background-color:rgb(5, 5, 5);*/	
+	background:url('../images/fn.jpg') no-repeat center ; 
+	-webkit-background-size:cover ;
+	/*background-color:rgb(27, 26, 26);*/
+
+}
+
+main h2 {
+	color:rgb(56, 60, 63);
+	position:relative;
+	text-align: center;
+	background-color: rgb(108, 158, 187);
+}
+
+#ptt {
+	background-color: rgb(108, 158, 187);
+    text-align: center;
+	color:rgb(56, 60, 63);
+
+}
+
+#informations {
+    width:1000px;
+	display:block;
+	position:relative;
+    border-bottom: black;
+
+}
+
+#adminpp {
+    width:1000px;
+	display:block;
+	position:relative;
+    border-bottom: black;
+	text-align: center;
+}
+
+#informations img{
+	width:200px;
+    height: 200px;
+	
+}
+#pt {
+	background-color: rgb(108, 158, 187);
+    text-align: center;
+	color:rgb(56, 60, 63);
+
+}
+
+#ptA {
+	background-color: rgb(255, 0, 85);
+    text-align: center;
+	color:rgb(56, 60, 63);
+
+}
+
+#ppImg {
+	left: 30px;
+	bottom: 200px;
+	display: block;
+	position: relative;
+	width: 200px;
+}
+#photoProfil {
+	display:inline-block;
+	width:300px;
+    height:280px;
+    position:relative;
+    border:black;
+	/*background-color:rgb(27, 26, 26);*/
+    top: 10px;
+}
+.an {
+    top: 20px;
+	border:2px black solid;
+	border-radius:114px;
+}
+#info {
+	display:inline-block;
+	position:relative;
+    float:right;
+	width:600px;
+    height:280px;
+    padding:10px;
+	/*background-color:rgb(27, 26, 26);*/
+    bottom: 487px;
+
+}
+
+#Description {
+    width:1000px;
+	display:inline-block;
+	position:relative;
+    bottom : 580px;
+    margin:160px ;
+    right: 160px;
+	text-align: center;
+}
+
+#Desc {
+	background-color: rgb(11, 12, 12);
+    width:996px;
+    color: rgb(230, 221, 215);
+    text-align: center;
+}
+
+
+#signalement {
+	top: 20px;
+	display: inline-block;
+	position: relative;
+	width: 900px;
+	margin-bottom: 20px;
+	height: 80px;
+	border-bottom: 2px solid rgb(108, 158, 187);
+	background:url('../images/fn.jpg') no-repeat center ; 
+	border: 2px solid rgb(108, 158, 187);
+	left:40px;
+
+}
+
+#liste_signalement {
+
+	display: block;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 30px;
+	width: 700px;
+
+}
+
+#ban {
+
+	display: block;
+	position: relative;
+	float: right;
+	margin-left: 10px;
+	margin-top: 30px;
+	width: 200px;
+	bottom: 35px;
+
+}
+footer {
+	width:1000px;
+	padding:10px;
+	margin-top:30px;
+	margin-bottom:10px;
+	/*background:url('../images/fdO.jpg');*/
+	background-color:rgb(27, 26, 26);
+
+}
+
+footer img {
+	width:170px;
+	height:120px;
+}
+
+footer a {
+	display:inline-block;
+}
+
+footer p {
+	font-weight:bold;
+	font-style:italic;
+	position:relative;
+	bottom:80px;
+	color:rgb(80, 74, 70);
+	display:inline-block;
+	width:70%;
+	float:right;
+}

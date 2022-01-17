@@ -1,0 +1,301 @@
+body {
+	top: 100px;
+	font-family:Arial;
+	margin:auto;
+	width:1000px;
+	background:url('../images/wowww.jpg') no-repeat center fixed;
+	-webkit-background-size:cover ;
+	-webkit-backdrop-filter: blur(15px);
+
+	/*background-size:contain;*/	
+}
+
+/* HEADER */
+
+header {
+	top: 100px;
+	width:1000px;
+	padding:10px;
+	/*background:url('../images/onnn.jpg');
+	background-size: cover;*/
+	background-color:rgb(27, 26, 26);
+}
+
+.logo {
+	width: 100px;
+	height: 70px;
+	}
+	
+
+#pp {
+	color: aliceblue;
+	width: 1000px;
+	text-align: center;
+	font-weight: bold;
+}
+#searchbar {
+    width: 400px;
+    display:inline-block;
+    float: right;
+    top: 15px;
+    height: 35px;
+    position: relative;
+	border-radius: 20px;
+
+
+}
+header img {
+	width:170px;
+	height:120px;
+}
+
+header a {
+	display:inline-block;
+	width:25%;
+}
+
+
+
+/* NAV */
+
+#mainNav {
+/*	background:url('../images/fdO.jpg');
+	background-size: cover;*/
+	background-color:rgb(27, 26, 26);
+
+}
+
+nav {
+
+	width:1000px;
+	padding:10px;
+	margin-top:30px;
+}
+
+nav img {
+	width:25px;
+	height:25px;
+	position:relative;
+	top:5px;
+}
+
+/* liens cliquables */
+
+.menuLink {
+	background-color: rgb(108, 158, 187);
+	position:relative;
+	bottom:20px;
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	padding:7px;
+	border:2px black solid;
+	border-radius:4px;
+	margin-right:10px;
+}
+
+#pdp {
+	background-color:rgb(196, 117, 52);
+	position:relative;
+	bottom:20px;
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	padding:7px;
+	border:2px black solid;
+	border-radius:4px;
+	margin-right:10px;
+	top: 20px;
+
+}
+
+/* menu de gauche (lien vers page message) */
+
+
+#menusMessage {
+	display:inline-block;
+	width:250px;
+	position: relative;
+	float: left;
+}
+
+/* menu central (pages publication/recherche annonce) */
+
+#Annonce {
+	display:inline-block;
+	width:420px;
+    position: relative;
+}
+
+/* menu de droite (accès compte(page inscription et connexion)) */
+
+#menusCompte {
+	display:inline-block;
+	width:200px;
+	float:right;
+	position: relative;
+}
+
+/* MAIN */
+
+main {
+	width:1000px;
+	height:700px;
+	padding:10px;
+	margin-top:30px;
+	color:rgb(187, 171, 171);
+	font-size:18px;
+	/*background-color:rgb(5, 5, 5);*/	
+	background:url('../images/fn.jpg') no-repeat center ; 
+	-webkit-background-size:cover ;
+	/*background-color:rgb(27, 26, 26);*/
+
+}
+main h2 {
+	color:rgb(56, 60, 63);
+	position:relative;
+    font-family: Poppins-Regular;
+	text-align: center;
+	background-color: rgb(108, 158, 187);
+
+}
+
+#rec {
+	top: 20px;
+	display: inline-block;
+	position: relative;
+	width: 900px;
+	margin-bottom: 20px;
+	height: 80px;
+	border-bottom: 2px solid rgb(108, 158, 187);
+	background:url('../images/fn.jpg') no-repeat center ; 
+	border: 2px solid rgb(108, 158, 187);
+	left:40px;
+
+}
+
+#recA {
+
+	display: block;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 30px;
+	width: 700px;
+
+}
+
+#recB {
+
+	display: block;
+	position: relative;
+	float: right;
+	margin-left: 10px;
+	margin-top: 30px;
+	width: 200px;
+	right: 200px;
+	bottom: 35px;
+
+}
+
+#recAA {
+
+	display: block;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 30px;
+	width: 700px;
+
+}
+
+#recBB {
+
+	display: block;
+	position: relative;
+	float: right;
+	margin-left: 10px;
+	margin-top: 30px;
+	width: 100px;
+	bottom: 35px;
+	right: 200px;
+
+
+}
+
+#recC {
+
+	display: block;
+	position: relative;
+	float: right;
+	margin-left: 10px;
+	margin-top: 30px;
+	width: 100px;
+	right: 200px;
+	bottom: 35px;
+
+}
+
+#imgDes {
+	width: 200px;
+	height: 200px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border:2px black solid;
+	border-radius:114px;
+}
+#lec {
+display: block;
+position: relative;
+width: 600px;
+background-color: rgb(116, 113, 114);
+left: 200px;
+top: 30px;
+text-align: center;
+color: black;
+border:2px black solid;
+
+}
+.mess {
+	border-bottom:2px solid rgb(65, 71, 71);
+	margin-bottom: 10px;
+}
+#message {
+display:inline-block;
+position: relative;
+text-align: center;
+width: 300;
+}
+
+#btn_message{
+display: inline-block;
+position: relative;
+top: 100px;
+}
+footer {
+	width:1000px;
+	padding:10px;
+	margin-top:30px;
+	margin-bottom:10px;
+	/*background:url('../images/fdO.jpg');*/
+	background-color:rgb(27, 26, 26);
+
+}
+
+footer img {
+	width:170px;
+	height:120px;
+}
+
+footer a {
+	display:inline-block;
+}
+
+footer p {
+	font-weight:bold;
+	font-style:italic;
+	position:relative;
+	top:40px;
+	color:rgb(80, 74, 70);
+	display:inline-block;
+	width:70%;
+	float:right;
+}
